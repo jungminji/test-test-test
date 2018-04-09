@@ -1,2 +1,13 @@
-<p>This is header</p>
-<app-header-brand></app-header-brand>
+<header class="header">
+    <div class="container">
+        <div class="brand">
+            <app-header-brand></app-header-brand>
+        </div>
+        <nav class="nav">
+            <app-header-text-menu [text]="'대출신청'" [path]="'/'"></app-header-text-menu>
+            <app-header-text-menu [text]="'이용안내'" [path]="'/'"></app-header-text-menu>
+            <app-header-btn-menu [text]="'로그인'"></app-header-btn-menu>
+            <app-header-btn-menu [text]="'회원가입'" [color]="'blue'"></app-header-btn-menu>
+        </nav>
+    </div>
+</header>

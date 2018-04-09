@@ -1,0 +1,21 @@
+.header {
+    background: transparent;
+    width: 100%;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    .container {
+        width: 1070px;
+        margin: 0 auto;
+        display: flex;
+        .brand {
+            flex-basis: 60%;
+        }
+        .nav {
+            display: flex;
+            flex-basis: 40%;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
